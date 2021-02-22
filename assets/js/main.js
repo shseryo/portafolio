@@ -57,6 +57,16 @@
     }
   });
 
+  // Skills section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
+
+
   // ========================================================================= //
   //  // RESPONSIVE MENU
   // ========================================================================= //
@@ -99,10 +109,10 @@
         items: 1
       },
       768: {
-        items: 1
+        items: 2
       },
       900: {
-        items: 2
+        items: 4
       }
     }
   });

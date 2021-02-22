@@ -213,8 +213,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 95px;
-  height: 80px;
+  width: 65px;
+  height: 40px;
 }
 
 .responsive {
@@ -271,6 +271,42 @@ nav ul li a {
   color: #fff;
   font-size: 15px;
 }
+
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #45505b;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -342,7 +378,7 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
+  padding-bottom: 0 px;
   border: 20px solid #999;
 }
 
@@ -374,35 +410,29 @@ nav ul li a {
 #services {
   background: #f7f7f7;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 0 px;
 }
 
 .owl-item {
   float: left;
 }
 
-.services-block span {
-  margin: 10px 0;
-  position: relative;
-  font-size: 13px;
-  color: #312129;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  display: block;
-}
+
 
 .services-block .separator {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
 }
+.services-block img{
+  width:  50%;
+  height: 50%;
+  margin-top: 20px;
+  margin-bottom: 20;
+} 
 
-.services-block i {
-  font-size: 44px;
-  color: #993232;
-  line-height: 44px;
-}
+
+
 
 .services-carousel .owl-stage-outer {
   overflow: hidden;
@@ -432,6 +462,73 @@ nav ul li a {
 .owl-nav {
   display: none;
 }
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+  
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #45505b;
+  position: relative;
+}
+
+.section-title h2{
+  text-align: center;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #45505b;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #999999;
+  border: 2px solid #45505b;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
